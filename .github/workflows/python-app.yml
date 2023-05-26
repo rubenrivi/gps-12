@@ -37,4 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
             pip install pytest pytest-cov
-            pytest practica-gps-ci-master/test.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+            pytest practica-gps-ci-master/test.py --doctest-modules --junitxml=junit/test-results.txt --cov=com --cov-report=xml 
